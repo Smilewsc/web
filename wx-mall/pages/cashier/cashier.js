@@ -3,7 +3,7 @@ var data = require( './data.js' );
 Page( {
 	data : {},
 	onShow : function() {
-		// 每次进入都要请求一次
+		// 每次进入都要请求一次..
 		this.setData( data );
 	},
 
